@@ -70,11 +70,11 @@ for entity, value in entities.items():
         "unique_id": entity,
         "state_topic": device+"/sensor/"+entity+"/state",
         "device":{
-                "identifiers":"619",
-                "name":"bms",
+                "identifiers": "619",
+                "name": device,
                 "model": "local",
-                "sw_version":"11.11.2020",
-                "manufacturer":"home"
+                "sw_version": "11.11.2020",
+                "manufacturer": "home"
                 }
     }
     topic = '{}/{}/{}/{}/{}'.format(topic_prefix, value[0], device,  entity, 'config')
