@@ -48,8 +48,8 @@ commands = ['ON', 'OFF']
 
 
 entities = {
-    'soc': ['sensor', {'name': 'Front Door', 'device_class': 'battery', 'unit_of_measurement': '%', 'icon': 'mdi:battery'}],
-    'shh': ['switch', {'name': 'Frontr'}],
+    'soc': ['sensor', {'name': 'SoC', 'device_class': 'battery', 'unit_of_measurement': '%', 'icon': 'mdi:battery'}],
+#    'shh': ['switch', {'name': 'Frontr'}],
     'power': ['sensor', {'name': 'Power', 'unit_of_measurement': 'W', 'device_class': 'power'}],
     'amps': ['sensor', {'name': 'Amps', 'unit_of_measurement': 'A', 'icon': 'mdi:current-dc', 'device_class': 'current'}],
     'volts': ['sensor', {'name': 'Battery BMS Voltage', 'unit_of_measurement': 'V', 'icon': 'mdi:flash', 'device_class': 'voltage'}],
